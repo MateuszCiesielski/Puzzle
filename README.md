@@ -1,2 +1,2 @@
 # Puzzle
-Puzzle game in Xamarin for Android
+Puzzle game for Android (Xamarin)
