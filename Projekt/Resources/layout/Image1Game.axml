@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/shakeButton"
+        android:text="Shuffle (shake device)"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/solveButton"
+        android:text="Solve"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+  <RelativeLayout
+      android:orientation="vertical"
+      android:gravity="center"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/table"
+        android:src="@drawable/table"
+        android:layout_width="360px"
+        android:layout_height="640px" />
+    <ImageView
+        android:id="@+id/im1"
+        android:src="@drawable/im1"
+        android:layout_width="120px"
+        android:layout_height="128px"
+        android:layout_alignStart="@id/table" />
+    <ImageView
+        android:id="@+id/im2"
+        android:src="@drawable/im2"
+        android:layout_width="120px"
+        android:layout_height="128px"
+        android:layout_toRightOf="@id/im1" />
+    <ImageView
+        android:id="@+id/im3"
+        android:src="@drawable/im3"
+        android:layout_width="120px"
+        android:layout_height="128px"
+        android:layout_toRightOf="@id/im2" />
+    <ImageView
+        android:id="@+id/im4"
+        android:src="@drawable/im4"
+        android:layout_width="120px"
+        android:layout_height="128px"
+        android:layout_below="@id/im1" />
+    <ImageView
+        android:id="@+id/im5"
+        android:src="@drawable/im5"
+        android:layout_width="120px"
+        android:layout_height="128px"
+        android:layout_below="@id/im2"
+        android:layout_toRightOf="@id/im4" />
+    <ImageView
+        android:id="@+id/im6"
+        android:src="@drawable/im6"
+        android:layout_width="120px"
+        android:layout_height="128px"
+        android:layout_below="@id/im3"
+        android:layout_toRightOf="@id/im5" />
+    <ImageView
+        android:id="@+id/im7"
+        android:src="@drawable/im7"
+        android:layout_width="120px"
+        android:layout_height="128px"
+        android:layout_below="@id/im4" />
+    <ImageView
+        android:id="@+id/im8"
+        android:src="@drawable/im8"
+        android:layout_width="120px"
+        android:layout_height="128px"
+        android:layout_below="@id/im5"
+        android:layout_toRightOf="@id/im7" />
+    <ImageView
+        android:id="@+id/im9"
+        android:src="@drawable/im9"
+        android:layout_width="120px"
+        android:layout_height="128px"
+        android:layout_below="@id/im6"
+        android:layout_toRightOf="@id/im8" />
+    <ImageView
+        android:id="@+id/im10"
+        android:src="@drawable/im10"
+        android:layout_width="120px"
+        android:layout_height="128px"
+        android:layout_below="@id/im7" />
+    <ImageView
+        android:id="@+id/im11"
+        android:src="@drawable/im11"
+        android:layout_width="120px"
+        android:layout_height="128px"
+        android:layout_below="@id/im8"
+        android:layout_toRightOf="@id/im10" />
+    <ImageView
+        android:id="@+id/im12"
+        android:src="@drawable/im12"
+        android:layout_width="120px"
+        android:layout_height="128px"
+        android:layout_below="@id/im9"
+        android:layout_toRightOf="@id/im11" />
+    <ImageView
+        android:id="@+id/im13"
+        android:src="@drawable/im13"
+        android:layout_width="120px"
+        android:layout_height="128px"
+        android:layout_below="@id/im10" />
+    <ImageView
+        android:id="@+id/im14"
+        android:src="@drawable/im14"
+        android:layout_width="120px"
+        android:layout_height="128px"
+        android:layout_below="@id/im11"
+        android:layout_toRightOf="@id/im13" />
+    <ImageView
+        android:id="@+id/im15"
+        android:src="@drawable/im15"
+        android:layout_width="120px"
+        android:layout_height="128px"
+        android:layout_below="@id/im12"
+        android:layout_toRightOf="@id/im14" />
+  </RelativeLayout>
+</LinearLayout>
